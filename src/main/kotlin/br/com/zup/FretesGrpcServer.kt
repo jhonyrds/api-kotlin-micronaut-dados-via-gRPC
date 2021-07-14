@@ -51,7 +51,7 @@ class FretesGrpcServer : FretesServiceGrpc.FretesServiceImplBase() {
 
 //        if (cep.endsWith("000")) {
 //            val statusProto = com.google.rpc.Status.newBuilder()
-//                .setCode(Code.INVALID_ARGUMENT_VALUE)
+//                .setCode(Code.CANCELLED_VALUE)
 //                .setMessage("o valor não pode ser calculado")
 //                .addDetails(
 //                    Any.pack(
